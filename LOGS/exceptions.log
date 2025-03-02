@@ -4,3 +4,631 @@
 2025-02-24T22:44:23.850Z Timeout tuning to 7670
 2025-02-24T22:44:27.538Z Timeout tuning to 7690
 2025-02-24T22:44:41.139Z Timeout tuning to 7830
+2000-01-01T00:01:14.647Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:01:14.665Z Reset flags: 0x0e
+2000-01-01T00:01:14.770Z Playing boot animation
+2000-01-01T00:01:17.707Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:01:17.718Z Reset flags: 0x0e
+2000-01-01T00:01:17.826Z Normal boot - showing main menu
+2000-01-01T00:00:00.669Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.678Z Reset flags: 0x0e
+2000-01-01T00:00:00.779Z Normal boot - showing main menu
+2000-01-01T00:00:00.670Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.680Z Reset flags: 0x0e
+2000-01-01T00:00:00.781Z Normal boot - showing main menu
+2000-01-01T00:00:00.673Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.683Z Reset flags: 0x0e
+2000-01-01T00:00:00.785Z Normal boot - showing main menu
+2000-01-01T00:00:43.988Z Error: Not Mono 8/16 bit RAW or IMA ADPCM WAV (fmt=1, channels=2, size=16)
+  at line 107 col 1460 in .bootcde
+...soundFiles[d]}`,{repeat:!0})),Pip.brightness=20,Pip.fadeOn()...
+                              ^
+in function "showAlarm" called from line 1 col 965 in .bootcde
+...Sleep(showAlarm):showAlarm(),console.log("ALARM!")
+                              ^
+in function called from system
+
+2000-01-01T00:01:19.718Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:01:19.728Z Reset flags: 0x00
+2000-01-01T00:01:19.840Z Normal boot - showing main menu
+2000-01-01T00:01:29.946Z Error: Not Mono 8/16 bit RAW or IMA ADPCM WAV (fmt=1, channels=2, size=16)
+  at line 107 col 1460 in .bootcde
+...soundFiles[d]}`,{repeat:!0})),Pip.brightness=20,Pip.fadeOn()...
+                              ^
+in function "showAlarm" called from line 1 col 965 in .bootcde
+...Sleep(showAlarm):showAlarm(),console.log("ALARM!")
+                              ^
+in function called from system
+
+2000-01-01T00:01:47.719Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:01:47.729Z Reset flags: 0x00
+2000-01-01T00:01:47.841Z Normal boot - showing main menu
+2000-01-01T00:01:57.946Z Error: Not Mono 8/16 bit RAW or IMA ADPCM WAV (fmt=1, channels=2, size=16)
+  at line 107 col 1460 in .bootcde
+...soundFiles[d]}`,{repeat:!0})),Pip.brightness=20,Pip.fadeOn()...
+                              ^
+in function "showAlarm" called from line 1 col 965 in .bootcde
+...Sleep(showAlarm):showAlarm(),console.log("ALARM!")
+                              ^
+in function called from system
+
+2000-01-01T00:02:27.719Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:02:27.729Z Reset flags: 0x00
+2000-01-01T00:02:27.842Z Normal boot - showing main menu
+2000-01-01T00:02:37.946Z Error: Not Mono 8/16 bit RAW or IMA ADPCM WAV (fmt=1, channels=2, size=16)
+  at line 107 col 1460 in .bootcde
+...soundFiles[d]}`,{repeat:!0})),Pip.brightness=20,Pip.fadeOn()...
+                              ^
+in function "showAlarm" called from line 1 col 965 in .bootcde
+...Sleep(showAlarm):showAlarm(),console.log("ALARM!")
+                              ^
+in function called from system
+
+2000-01-01T00:00:00.672Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.681Z Reset flags: 0x0e
+2000-01-01T00:00:00.783Z Normal boot - showing main menu
+2000-01-01T00:00:00.674Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.759Z Reset flags: 0x0e
+2000-01-01T00:00:00.861Z Normal boot - showing main menu
+2000-01-01T00:00:00.674Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.760Z Reset flags: 0x0e
+2000-01-01T00:00:00.862Z Normal boot - showing main menu
+2000-01-01T00:00:00.673Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.758Z Reset flags: 0x0e
+2000-01-01T00:00:00.857Z Playing boot animation
+2000-01-01T00:00:00.666Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.751Z Reset flags: 0x0e
+2000-01-01T00:00:00.853Z Normal boot - showing main menu
+2000-01-01T00:02:31.686Z Error going to sleep: Error: Already sleeping
+2000-01-01T00:02:40.821Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:02:40.825Z Reset flags: 0x0e
+2000-01-01T00:02:40.934Z Normal boot - showing main menu
+2000-01-01T00:02:56.736Z ReferenceError: "startupScreen" is not defined  at line 25 col 1
+startupScreen();
+^
+at line 165 col 87 in .bootcde
+..."fs").readFile("USER/"+app))
+                              ^
+in function "startApp" called from line 165 col 342 in .bootcde
+startApp(b)
+          ^
+in function "b" called from line 166 col 8885 in .bootcde
+...ltin("OK")),"f"==(typeof b)[0]?b(c):"o"==(typeof b)[0]&&("n"==(typeof b.value)[0]?...
+                                                    ^
+in function "select" called from line 166 col 7577 in .bootcde
+a?c.move(-a):c.select()
+                      ^
+in function called from system
+
+2000-01-01T00:03:08.713Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:03:08.723Z Reset flags: 0x0e
+2000-01-01T00:03:08.832Z Normal boot - showing main menu
+2000-01-01T00:05:51.661Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:05:51.671Z Reset flags: 0x0e
+2000-01-01T00:05:51.780Z Normal boot - showing main menu
+2000-01-01T00:00:00.667Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.676Z Reset flags: 0x0e
+2000-01-01T00:00:00.778Z Normal boot - showing main menu
+2000-01-01T00:00:00.670Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.679Z Reset flags: 0x0e
+2000-01-01T00:00:00.782Z Normal boot - showing main menu
+2000-01-01T00:00:16.760Z ReferenceError: "drawScreen" is not defined  at line 49 col 1
+drawScreen();
+^
+at line 165 col 87 in .bootcde
+..."fs").readFile("USER/"+app))
+                              ^
+in function "startApp" called from line 165 col 342 in .bootcde
+startApp(b)
+          ^
+in function "b" called from line 166 col 8885 in .bootcde
+...ltin("OK")),"f"==(typeof b)[0]?b(c):"o"==(typeof b)[0]&&("n"==(typeof b.value)[0]?...
+                                                    ^
+in function "select" called from line 166 col 7577 in .bootcde
+a?c.move(-a):c.select()
+                      ^
+in function called from system
+
+2000-01-01T00:00:39.054Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:39.054Z Reset flags: 0x0e
+2000-01-01T00:00:39.142Z Normal boot - showing main menu
+2000-01-01T00:00:44.714Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:44.724Z Reset flags: 0x0e
+2000-01-01T00:00:45.755Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:45.755Z Reset flags: 0x0e
+2000-01-01T00:00:45.825Z Normal boot - showing main menu
+2000-01-01T00:00:58.843Z ReferenceError: "drawScreen" is not defined  at line 49 col 1
+drawScreen();
+^
+at line 165 col 87 in .bootcde
+..."fs").readFile("USER/"+app))
+                              ^
+in function "startApp" called from line 165 col 342 in .bootcde
+startApp(b)
+          ^
+in function "b" called from line 166 col 8885 in .bootcde
+...ltin("OK")),"f"==(typeof b)[0]?b(c):"o"==(typeof b)[0]&&("n"==(typeof b.value)[0]?...
+                                                    ^
+in function "select" called from line 166 col 7577 in .bootcde
+a?c.move(-a):c.select()
+                      ^
+in function called from system
+
+2000-01-01T00:01:42.576Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:01:42.576Z Reset flags: 0x0e
+2000-01-01T00:01:42.649Z Normal boot - showing main menu
+2000-01-01T00:00:00.677Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.686Z Reset flags: 0x0e
+2000-01-01T00:00:00.788Z Normal boot - showing main menu
+2000-01-01T00:00:00.667Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.752Z Reset flags: 0x0e
+2000-01-01T00:00:00.855Z Normal boot - showing main menu
+2000-01-01T00:00:00.675Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.684Z Reset flags: 0x0e
+2000-01-01T00:00:00.788Z Normal boot - showing main menu
+2000-01-01T00:00:19.406Z ReferenceError: "Point" is not defined  at line 1 col 9
+const { Point, Triangle, Mesh } = require('./mesh.js');
+        ^
+at line 165 col 87 in .bootcde
+..."fs").readFile("USER/"+app))
+                              ^
+in function "startApp" called from line 165 col 342 in .bootcde
+startApp(b)
+          ^
+in function "b" called from line 166 col 8885 in .bootcde
+...ltin("OK")),"f"==(typeof b)[0]?b(c):"o"==(typeof b)[0]&&("n"==(typeof b.value)[0]?...
+                                                    ^
+in function "select" called from line 166 col 7577 in .bootcde
+a?c.move(-a):c.select()
+                      ^
+in function called from system
+
+2000-01-01T00:00:34.536Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:34.546Z Reset flags: 0x0e
+2000-01-01T00:00:34.658Z Normal boot - showing main menu
+2000-01-01T00:00:48.152Z SyntaxError: Got '=' expected ','  at line 61 col 54
+...enWidth, screenHeight, fov = 100, viewDistance = 4) 
+                              ^
+at line 165 col 87 in .bootcde
+..."fs").readFile("USER/"+app))
+                              ^
+in function "startApp" called from line 165 col 342 in .bootcde
+startApp(b)
+          ^
+in function "b" called from line 166 col 8885 in .bootcde
+...ltin("OK")),"f"==(typeof b)[0]?b(c):"o"==(typeof b)[0]&&("n"==(typeof b.value)[0]?...
+                                                    ^
+in function "select" called from line 166 col 7577 in .bootcde
+a?c.move(-a):c.select()
+                      ^
+in function called from system
+
+2000-01-01T00:03:15.724Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:03:15.734Z Reset flags: 0x24
+2000-01-01T00:03:15.845Z Normal boot - showing main menu
+2000-01-01T00:03:31.127Z SyntaxError: Got '=' expected ','  at line 61 col 54
+...enWidth, screenHeight, fov = 100, viewDistance = 4) 
+                              ^
+at line 165 col 87 in .bootcde
+..."fs").readFile("USER/"+app))
+                              ^
+in function "startApp" called from line 165 col 342 in .bootcde
+startApp(b)
+          ^
+in function "b" called from line 166 col 8885 in .bootcde
+...ltin("OK")),"f"==(typeof b)[0]?b(c):"o"==(typeof b)[0]&&("n"==(typeof b.value)[0]?...
+                                                    ^
+in function "select" called from line 166 col 7577 in .bootcde
+a?c.move(-a):c.select()
+                      ^
+in function called from system
+
+2000-01-01T00:00:00.684Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.694Z Reset flags: 0x0e
+2000-01-01T00:00:00.798Z Normal boot - showing main menu
+2000-01-01T00:00:08.555Z SyntaxError: Got '=' expected ','  at line 61 col 54
+...enWidth, screenHeight, fov = 100, viewDistance = 4) 
+                              ^
+at line 165 col 87 in .bootcde
+..."fs").readFile("USER/"+app))
+                              ^
+in function "startApp" called from line 165 col 342 in .bootcde
+startApp(b)
+          ^
+in function "b" called from line 166 col 8885 in .bootcde
+...ltin("OK")),"f"==(typeof b)[0]?b(c):"o"==(typeof b)[0]&&("n"==(typeof b.value)[0]?...
+                                                    ^
+in function "select" called from line 166 col 7577 in .bootcde
+a?c.move(-a):c.select()
+                      ^
+in function called from system
+
+2000-01-01T00:00:29.745Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:29.745Z Reset flags: 0x0e
+2000-01-01T00:00:29.745Z Normal boot - showing main menu
+2000-01-01T00:00:37.258Z ReferenceError: "export" is not defined  at line 90 col 1
+export { Point, Triangle, Mesh, Vector};
+^
+at line 165 col 87 in .bootcde
+..."fs").readFile("USER/"+app))
+                              ^
+in function "startApp" called from line 165 col 342 in .bootcde
+startApp(b)
+          ^
+in function "b" called from line 166 col 8885 in .bootcde
+...ltin("OK")),"f"==(typeof b)[0]?b(c):"o"==(typeof b)[0]&&("n"==(typeof b.value)[0]?...
+                                                    ^
+in function "select" called from line 166 col 7577 in .bootcde
+a?c.move(-a):c.select()
+                      ^
+in function called from system
+
+2000-01-01T00:00:52.373Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:52.383Z Reset flags: 0x0e
+2000-01-01T00:00:52.494Z Normal boot - showing main menu
+2000-01-01T00:01:03.593Z ReferenceError: "projectPoint" is not defined  at line 1 col 1
+projectPoint(p, 300, 300)
+^
+in function called from line 1 col 59
+...> projectPoint(p, 300, 300));
+                              ^
+in function called from line 9 col 6
+    });
+     ^
+in function "drawMesh" called from line 135 col 18
+drawMesh(mesh, bX);
+                 ^
+at line 165 col 87 in .bootcde
+..."fs").readFile("USER/"+app))
+                              ^
+in function "startApp" called from line 165 col 342 in .bootcde
+startApp(b)
+          ^
+in function "b" called from line 166 col 8885 in .bootcde
+...ltin("OK")),"f"==(typeof b)[0]?b(c):"o"==(typeof b)[0]&&("n"==(typeof b.value)[0]?...
+                                                    ^
+in function "select" called from line 166 col 7577 in .bootcde
+a?c.move(-a):c.select()
+                      ^
+in function called from system
+
+2000-01-01T00:02:07.726Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:02:07.736Z Reset flags: 0x0e
+2000-01-01T00:02:07.847Z Normal boot - showing main menu
+2000-01-01T00:02:16.460Z ReferenceError: "projectOntoScreen" is not defined  at line 1 col 1
+projectOntoScreen(300, 300)
+^
+in function called from line 1 col 61
+...projectOntoScreen(300, 300));
+                              ^
+in function called from line 9 col 6
+    });
+     ^
+in function "drawMesh" called from line 135 col 18
+drawMesh(mesh, bX);
+                 ^
+at line 165 col 87 in .bootcde
+..."fs").readFile("USER/"+app))
+                              ^
+in function "startApp" called from line 165 col 342 in .bootcde
+startApp(b)
+          ^
+in function "b" called from line 166 col 8885 in .bootcde
+...ltin("OK")),"f"==(typeof b)[0]?b(c):"o"==(typeof b)[0]&&("n"==(typeof b.value)[0]?...
+                                                    ^
+in function "select" called from line 166 col 7577 in .bootcde
+a?c.move(-a):c.select()
+                      ^
+in function called from system
+
+2000-01-01T00:02:22.687Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:02:22.697Z Reset flags: 0x0e
+2000-01-01T00:02:22.808Z Normal boot - showing main menu
+2000-01-01T00:02:37.292Z ReferenceError: "projectOntoScreen" is not defined  at line 1 col 1
+projectOntoScreen(300, 300)
+^
+in function called from line 1 col 61
+...projectOntoScreen(300, 300));
+                              ^
+in function called from line 9 col 6
+    });
+     ^
+in function "drawMesh" called from line 135 col 18
+drawMesh(mesh, bX);
+                 ^
+at line 165 col 87 in .bootcde
+..."fs").readFile("USER/"+app))
+                              ^
+in function "startApp" called from line 165 col 342 in .bootcde
+startApp(b)
+          ^
+in function "b" called from line 166 col 8885 in .bootcde
+...ltin("OK")),"f"==(typeof b)[0]?b(c):"o"==(typeof b)[0]&&("n"==(typeof b.value)[0]?...
+                                                    ^
+in function "select" called from line 166 col 7577 in .bootcde
+a?c.move(-a):c.select()
+                      ^
+in function called from system
+
+2000-01-01T00:03:42.067Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:03:42.077Z Reset flags: 0x0e
+2000-01-01T00:03:42.188Z Normal boot - showing main menu
+2000-01-01T00:03:53.158Z Error: Function "flip" not found!  at line 12 col 8
+    bX.flip();
+       ^
+in function "drawMesh" called from line 137 col 18
+drawMesh(mesh, bX);
+                 ^
+at line 165 col 87 in .bootcde
+..."fs").readFile("USER/"+app))
+                              ^
+in function "startApp" called from line 165 col 342 in .bootcde
+startApp(b)
+          ^
+in function "b" called from line 166 col 8885 in .bootcde
+...ltin("OK")),"f"==(typeof b)[0]?b(c):"o"==(typeof b)[0]&&("n"==(typeof b.value)[0]?...
+                                                    ^
+in function "select" called from line 166 col 7577 in .bootcde
+a?c.move(-a):c.select()
+                      ^
+in function called from system
+
+2000-01-01T00:00:00.685Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.694Z Reset flags: 0x0e
+2000-01-01T00:00:00.798Z Normal boot - showing main menu
+2000-01-01T00:00:00.670Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.754Z Reset flags: 0x0e
+2000-01-01T00:00:00.865Z Normal boot - showing main menu
+2000-01-01T00:00:14.132Z ReferenceError: "customTorchFunction" is not defined  at line 142 col 10
+setWatch(customTorchFunction, BTN_TORCH, { repeat: true, edg...
+         ^
+at line 165 col 87 in .bootcde
+..."fs").readFile("USER/"+app))
+                              ^
+in function "startApp" called from line 165 col 342 in .bootcde
+startApp(b)
+          ^
+in function "b" called from line 166 col 8885 in .bootcde
+...ltin("OK")),"f"==(typeof b)[0]?b(c):"o"==(typeof b)[0]&&("n"==(typeof b.value)[0]?...
+                                                    ^
+in function "select" called from line 166 col 7577 in .bootcde
+a?c.move(-a):c.select()
+                      ^
+in function called from system
+
+2000-01-01T00:00:32.247Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:32.339Z Reset flags: 0x0e
+2000-01-01T00:00:32.451Z Normal boot - showing main menu
+2000-01-01T00:00:00.676Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.687Z Reset flags: 0x0e
+2000-01-01T00:00:00.793Z Normal boot - showing main menu
+2000-01-01T00:00:44.723Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:44.734Z Reset flags: 0x0e
+2000-01-01T00:00:44.846Z Normal boot - showing main menu
+2000-01-01T00:00:00.677Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.763Z Reset flags: 0x0e
+2000-01-01T00:00:00.868Z Normal boot - showing main menu
+2000-01-01T00:00:14.372Z ReferenceError: "playerPos" is not defined  at line 3 col 58
+... = Math.min(350, playerPos + 10);
+                              ^
+in function called from system
+
+2000-01-01T00:00:00.681Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.842Z Reset flags: 0x0e
+2000-01-01T00:00:00.947Z Normal boot - showing main menu
+2000-01-01T00:01:06.717Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:01:06.727Z Reset flags: 0x24
+2000-01-01T00:01:06.840Z Normal boot - showing main menu
+2000-01-01T00:00:00.672Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.682Z Reset flags: 0x0e
+2000-01-01T00:00:00.788Z Normal boot - showing main menu
+2000-01-01T00:00:12.304Z ReferenceError: "objJson" is not defined  at line 194 col 25
+mesh = loadMeshFromJSON(objJson,faces);
+                        ^
+at line 165 col 87 in .bootcde
+..."fs").readFile("USER/"+app))
+                              ^
+in function "startApp" called from line 165 col 342 in .bootcde
+startApp(b)
+          ^
+in function "b" called from line 166 col 8885 in .bootcde
+...ltin("OK")),"f"==(typeof b)[0]?b(c):"o"==(typeof b)[0]&&("n"==(typeof b.value)[0]?...
+                                                    ^
+in function "select" called from line 166 col 7577 in .bootcde
+a?c.move(-a):c.select()
+                      ^
+in function called from system
+
+2000-01-01T00:00:33.286Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:33.297Z Reset flags: 0x0e
+2000-01-01T00:00:33.409Z Normal boot - showing main menu
+2000-01-01T00:00:43.195Z ReferenceError: "mesh" is not defined  at line 5 col 14
+    drawMesh(mesh);
+             ^
+in function called from system
+
+2000-01-01T00:00:52.719Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:52.730Z Reset flags: 0x00
+2000-01-01T00:00:52.842Z Normal boot - showing main menu
+2000-01-01T00:01:06.747Z ReferenceError: "mesh" is not defined  at line 5 col 14
+    drawMesh(mesh);
+             ^
+in function called from system
+
+2000-01-01T00:00:00.678Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.689Z Reset flags: 0x0e
+2000-01-01T00:00:00.794Z Normal boot - showing main menu
+2000-01-01T00:00:17.188Z ReferenceError: "mesh" is not defined  at line 7 col 18
+        drawMesh(mesh);
+                 ^
+in function called from system
+
+2000-01-01T00:00:51.634Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:51.634Z Reset flags: 0x0e
+2000-01-01T00:00:51.730Z Normal boot - showing main menu
+2000-01-01T00:02:45.898Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:02:45.909Z Reset flags: 0x0e
+2000-01-01T00:02:46.021Z Normal boot - showing main menu
+2000-01-01T00:04:01.232Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:04:01.232Z Reset flags: 0x0e
+2000-01-01T00:04:01.290Z Normal boot - showing main menu
+2000-01-01T00:00:00.672Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.682Z Reset flags: 0x0e
+2000-01-01T00:00:00.788Z Normal boot - showing main menu
+2000-01-01T00:00:14.446Z Error: Unhandled promise rejection: Error: Function "projectOntoScreen" not found!  at line 5 col 41
+...roj1 = mesh.mesh[i].tri[0].projectOntoScreen(camPlane.tri[0]...
+                              ^
+in function "drawMesh" called from line 5 col 26
+            drawMesh(mesh);
+                         ^
+in function called from system
+
+2000-01-01T00:00:00.678Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.764Z Reset flags: 0x0e
+2000-01-01T00:00:00.869Z Normal boot - showing main menu
+2000-01-01T00:00:16.323Z Error: Unhandled promise rejection: Error: Function "projectOntoScreen" not found!  at line 4 col 41
+...roj1 = mesh.mesh[i].tri[0].projectOntoScreen(cameraPos, 300,...
+                              ^
+in function "drawMesh" called from line 5 col 26
+            drawMesh(mesh);
+                         ^
+in function called from system
+
+2000-01-01T00:00:59.713Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:59.724Z Reset flags: 0x00
+2000-01-01T00:00:59.836Z Normal boot - showing main menu
+2000-01-01T00:01:02.677Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:01:02.677Z Reset flags: 0x0e
+2000-01-01T00:01:02.677Z Normal boot - showing main menu
+2000-01-01T00:01:15.192Z Error: Unhandled promise rejection: ReferenceError: "cameraPos" is not defined  at line 4 col 59
+...].tri[0].projectOntoScreen(cameraPos, 300, 300);
+                              ^
+in function "drawMesh" called from line 5 col 26
+            drawMesh(mesh);
+                         ^
+in function called from system
+
+2000-01-01T00:02:25.933Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:02:25.933Z Reset flags: 0x0e
+2000-01-01T00:02:26.023Z Normal boot - showing main menu
+2000-01-01T00:00:00.680Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.691Z Reset flags: 0x0e
+2000-01-01T00:00:00.797Z Normal boot - showing main menu
+2000-01-01T00:01:18.724Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:01:18.735Z Reset flags: 0x24
+2000-01-01T00:01:18.847Z Normal boot - showing main menu
+2000-01-01T00:00:00.676Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.686Z Reset flags: 0x0e
+2000-01-01T00:00:00.792Z Normal boot - showing main menu
+2000-01-01T00:00:00.684Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.695Z Reset flags: 0x0e
+2000-01-01T00:00:00.800Z Normal boot - showing main menu
+2000-01-01T00:00:12.959Z Error: Unhandled promise rejection: Error: Can't read property 'x' of undefined  at line 1 col 16
+let dx = target.x - cameraPos.x;
+               ^
+in function "lookAt" called from line 5 col 20
+            lookAt()
+                   ^
+in function called from system
+
+2000-01-01T00:00:46.257Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:46.349Z Reset flags: 0x0e
+2000-01-01T00:00:46.462Z Normal boot - showing main menu
+2000-01-01T00:00:00.684Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.695Z Reset flags: 0x0e
+2000-01-01T00:00:00.800Z Normal boot - showing main menu
+2025-02-25T17:59:56.354Z Error reading radio enabled status: Error: I2C Error: Arbitration (start)
+2025-02-25T21:44:27.421Z ------- Booting 2v25.284 - 1.24 -------
+2025-02-25T21:44:27.421Z Reset flags: 0x0e
+2025-02-25T21:44:27.525Z Playing boot animation
+2000-01-01T00:00:00.669Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.680Z Reset flags: 0x0e
+2000-01-01T00:00:00.785Z Normal boot - showing main menu
+2000-01-01T00:02:50.353Z Error going to sleep: Error: Already sleeping
+2000-01-01T00:00:00.674Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.684Z Reset flags: 0x0e
+2000-01-01T00:00:00.790Z Normal boot - showing main menu
+2000-01-01T00:00:46.721Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:46.732Z Reset flags: 0x0e
+2000-01-01T00:00:46.844Z Normal boot - showing main menu
+2000-01-01T00:00:00.678Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.688Z Reset flags: 0x0e
+2000-01-01T00:00:00.793Z Normal boot - showing main menu
+2000-01-01T00:00:07.466Z ReferenceError: "BTN_RADIO" is not defined  at line 247 col 31
+setWatch(customRadioFunction, BTN_RADIO, { repeat: true, edg...
+                              ^
+at line 165 col 87 in .bootcde
+..."fs").readFile("USER/"+app))
+                              ^
+in function "startApp" called from line 165 col 342 in .bootcde
+startApp(b)
+          ^
+in function "b" called from line 166 col 8885 in .bootcde
+...ltin("OK")),"f"==(typeof b)[0]?b(c):"o"==(typeof b)[0]&&("n"==(typeof b.value)[0]?...
+                                                    ^
+in function "select" called from line 166 col 7577 in .bootcde
+a?c.move(-a):c.select()
+                      ^
+in function called from system
+
+2000-01-01T00:01:25.510Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:01:25.510Z Reset flags: 0x0e
+2000-01-01T00:01:25.608Z Normal boot - showing main menu
+2000-01-01T00:05:27.134Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:05:27.134Z Reset flags: 0x0e
+2000-01-01T00:05:27.191Z Normal boot - showing main menu
+2000-01-01T00:08:38.233Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:08:38.233Z Reset flags: 0x0e
+2000-01-01T00:08:38.233Z Normal boot - showing main menu
+2000-01-01T00:36:39.844Z Timeout tuning to 7650
+2000-01-01T02:14:10.721Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T02:14:10.732Z Reset flags: 0x24
+2000-01-01T02:14:10.841Z Playing boot animation
+2000-01-01T00:00:00.677Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.688Z Reset flags: 0x0e
+2000-01-01T00:00:00.789Z Playing boot animation
+2000-01-01T00:00:26.722Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:26.733Z Reset flags: 0x24
+2000-01-01T00:00:26.845Z Normal boot - showing main menu
+2000-01-01T00:00:00.671Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.681Z Reset flags: 0x0e
+2000-01-01T00:00:00.782Z Playing boot animation
+2000-01-01T00:00:28.485Z Error: Unhandled promise rejection: ReferenceError: "bX" is not defined  at line 19 col 54
+...ht: 300, bpp: 1, buffer: bX.buffer },
+                              ^
+in function "drawMesh" called from line 11 col 26
+            drawMesh(mesh);
+                         ^
+in function called from system
+
+2000-01-01T00:01:05.489Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:01:05.500Z Reset flags: 0x0e
+2000-01-01T00:01:05.611Z Normal boot - showing main menu
+2000-01-01T00:00:00.673Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.684Z Reset flags: 0x0e
+2000-01-01T00:00:00.788Z Normal boot - showing main menu
+2000-01-01T00:00:21.806Z Error: Unhandled promise rejection: Error: Function "forEach" not found!  at line 11 col 18
+            mesh.forEach( tri => { 
+                 ^
+in function called from system
+
+2000-01-01T00:00:00.678Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.688Z Reset flags: 0x0e
+2000-01-01T00:00:00.793Z Normal boot - showing main menu
+2000-01-01T00:00:41.722Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:41.733Z Reset flags: 0x24
+2000-01-01T00:00:41.845Z Normal boot - showing main menu
+2000-01-01T00:00:00.679Z ------- Booting 2v25.284 - 1.24 -------
+2000-01-01T00:00:00.690Z Reset flags: 0x0e
+2000-01-01T00:00:00.795Z Normal boot - showing main menu
+2000-01-01T00:00:20.573Z Error: Unhandled promise rejection: ReferenceError: "v1" is not defined  at line 1 col 12
+let l1 = v1.projectOntoScreen()
+           ^
+in function called from line 11 col 6
+    });
+     ^
+in function "drawMesh" called from line 5 col 26
+            drawMesh(mesh);
+                         ^
+in function called from system
+
