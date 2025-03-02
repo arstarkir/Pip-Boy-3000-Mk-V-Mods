@@ -32,7 +32,6 @@ class Vector
     {
         return new Vector(new Point(0, 0, 0), new Point(this.x * num, this.y * num, this.z * num));
     }
-    
 
     cross(other) 
     {
@@ -44,7 +43,7 @@ class Vector
 
     dist() 
     {
-        return Math.sqrt(this.x ** 2 + this.y ** 2 + this.z ** 2);
+        return Math.sqrt(Math.pow(this.x, 2) + Math.pow(this.y, 2) + Math.pow(this.z, 2));
     }
 
     norm() 
@@ -62,11 +61,14 @@ class Vector
     projectOntoScreen(camPlain, screenWidth, screenHeight) 
     {
         let normal = camPlain.GetNormal();
-        let proj = this.subtract(normal.multiply(this.dot(normal)/(normal.norm()**2)))
+        let proj = this.subtract(normal.multiply(this.dot(normal)/(Math.pow(normal.norm(),2))))
         return proj
     }
     
-    
+    toString()
+    {
+        return `Vec(${this.x},${this.y},${this.z})`
+    }
 }
 
 class Polygon 
@@ -80,8 +82,8 @@ class Polygon
 
     GetNormal()
     {
-        let v1v2 = this.v1.subtract(v2);
-        let v1v3 = this.v1.subtract(v3);
+        let v1v2 = this.v1.subtract(this.v2);
+        let v1v3 = this.v1.subtract(this.v3);
 
         return v1v2.cross(v1v3);
     }
@@ -157,9 +159,9 @@ function drawMesh(mesh)
 {
     let bX = Graphics.createArrayBuffer(300, 300, 1, { msb: true });
     mesh.mesh.forEach( tri => { 
-        let l1 = v1.projectOntoScreen()
-        let l2 = v2.projectOntoScreen()
-        let l3 = v3.projectOntoScreen()
+        let l1 = tri.v1.projectOntoScreen(camPlain)
+        let l2 = tri.v2.projectOntoScreen(camPlain)
+        let l3 = tri.v3.projectOntoScreen(camPlain)
 
         
         bX.drawLine(l1.x,l1.y,l2.x,l2.y)
@@ -197,17 +199,21 @@ function customTorchFunction()
         else if (result === 2) 
         {
             onScreen = true;
-            mesh = new Mesh(new Point(0,0,0),new Point(-0.25,1,1),new Point(1,0.25,0.5))
+            bC.clear()
+            mesh = loadMeshFromJSON(cubeObjJson,facesCube);
+            let l1 = new Vector(new Point(0,0,0),new Point(1,1,1))
+            let l2 = new Vector(new Point(0,0,0),new Point(1,1,1))
+            let l3 = new Vector(new Point(0,0,0),new Point(1,1,1))
             mesh.mesh.forEach(tri => {
-                let l1 = tri.v1.projectOntoScreen(camPlain, 300, 300);
-                let l2 = tri.v2.projectOntoScreen(camPlain, 300, 300);
-                let l3 = tri.v3.projectOntoScreen(camPlain, 300, 300);
-            
-                Pip.typeText(`${l1.toString()},${l2.toString()},${l3.toString()}`).then(() => {
-                    setTimeout(() => {}, 1000);
-                });
+                l1 = tri.v1.projectOntoScreen(camPlain, 300, 300);
+                l2 = tri.v2.projectOntoScreen(camPlain, 300, 300);
+                l3 = tri.v3.projectOntoScreen(camPlain, 300, 300);
+                Pip.typeText(`${l1.toString()},${l2.toString()},${l3.toString()}
+                `).then(() => {setTimeout(() => {}, 10);});
             });
-            
+            Pip.typeText(`${l1.toString()},${l2.toString()},${l3.toString()}
+            `).then(() => {setTimeout(() => {}, 10);});
+
             //drawMesh(mesh);
         } 
         else if (result === 3)
