@@ -61,7 +61,7 @@ class Vector
     projectOntoScreen(camPlain, screenWidth, screenHeight) 
     {
         let normal = camPlain.GetNormal();
-        let proj = this.subtract(normal.multiply(this.dot(normal)/(Math.pow(normal.norm(),2))))
+        let proj = this.subtract(normal.multiply(this.dot(normal)/(Math.pow(normal.dist(),2))))
         return proj
     }
     
@@ -201,24 +201,40 @@ function customTorchFunction()
             onScreen = true;
             bC.clear()
             mesh = loadMeshFromJSON(cubeObjJson,facesCube);
-            let l1 = new Vector(new Point(0,0,0),new Point(1,1,1))
-            let l2 = new Vector(new Point(0,0,0),new Point(1,1,1))
-            let l3 = new Vector(new Point(0,0,0),new Point(1,1,1))
+            let l1 = new Vector(new Point(0,0,0),new Point(1,1,1));
+            let l2 = new Vector(new Point(0,0,0),new Point(1,1,1));
+            let l3 = new Vector(new Point(0,0,0),new Point(1,1,1));
+            let text = "";
             mesh.mesh.forEach(tri => {
                 l1 = tri.v1.projectOntoScreen(camPlain, 300, 300);
                 l2 = tri.v2.projectOntoScreen(camPlain, 300, 300);
                 l3 = tri.v3.projectOntoScreen(camPlain, 300, 300);
-                Pip.typeText(`${l1.toString()},${l2.toString()},${l3.toString()}
-                `).then(() => {setTimeout(() => {}, 10);});
+                text += `${l1.toString()},${l2.toString()},${l3.toString()}
+                `;
             });
-            Pip.typeText(`${l1.toString()},${l2.toString()},${l3.toString()}
+            Pip.typeText(`(${text})${l1.toString()},${l2.toString()},${l3.toString()}
             `).then(() => {setTimeout(() => {}, 10);});
 
             //drawMesh(mesh);
         } 
         else if (result === 3)
         {
-            rotMod = !rotMod;
+            let text = "";
+            let l1 = new Vector(new Point(0,0,0),new Point(1,1,1));
+            text += `V ${l1.toString()},
+            `
+            let normal = camPlain.GetNormal();
+            text += `N ${normal.toString()},
+            `
+            text += `B1 ${l1.dot(normal)},
+            `            
+            text += `B2 ${(Math.pow(normal.dist(),2))},
+            `
+            let proj = l1.subtract(normal.multiply(l1.dot(normal)/(Math.pow(normal.norm(),2))))
+            text += `${proj.toString()},
+            `
+            Pip.typeText(`(${text})`).then(() => {setTimeout(() => {}, 10);});
+            //rotMod = !rotMod;
         }
         else if (result === 4) 
         {
